@@ -5,7 +5,7 @@ _NUM2 = int(input("ENTER NUMBER 2 :"))
 _NUM3 = int(input("ENTER NUMBER 3 :"))
 
 
-def _COMPARE_NUMBER(_NUMBER1,_NUMBER2,_NUMBER3) :
+def _COMPARE_NUMBER(_NUMBER1,_NUMBER2,_NUMBER3) : #function compare
     _MIN_VAL =""
     _MAX_VAL =""
     _LIST_INPUT = []
@@ -45,11 +45,11 @@ def _COMPARE_NUMBER(_NUMBER1,_NUMBER2,_NUMBER3) :
     return [_MAX_VAL,_MIN_VAL,_SUM_NUMBER]
 
 
-def _CAL_NUMBER(ARR_VAR) :
+def _CAL_NUMBER(_ARR_VAR) : #func calculate 
     _TOTAL=0
-    if len(ARR_VAR) > 0 :
-        for i in range(0,len(ARR_VAR)) :
-            _TOTAL =_TOTAL+int(ARR_VAR[i])
+    if len(_ARR_VAR) > 0 :
+        for i in range(0,len(_ARR_VAR)) :
+            _TOTAL =_TOTAL+int(_ARR_VAR[i])
     return _TOTAL
 
 
